@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-@media screen and (min-width: 600px) and (max-width: 992px) {
+/*config tablet*/
+@media screen and (min-width: 600px) and (max-width: 992px) {  
     body, html {
         background-image: linear-gradient(to left, #ffffff, #3c427e);
         height: 100vh;
@@ -11,6 +12,7 @@
 
     section#login {
         width: 80vw;
+        height: 380px;
 
     }
 
@@ -35,8 +37,10 @@
 
 } 
 
+
+/*config tela grande*/
 @media screen and (min-width: 992px) {
-    body, html {
+    body, html { 
         background-image: linear-gradient(to left,  #3c427e, #ffffff);
         height: 100vh;
         width: 100vw;
@@ -46,6 +50,7 @@
 
     section#login {
         width: 990px;
+        height: 450px;
 
     }
     section#login > div#imagem {
@@ -58,11 +63,11 @@
         width: 50%;
     }
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
         
     }
     div#formulario > h1 {
-        font-size: 2em;
+        font-size: 1.5em;
         
     }
 
